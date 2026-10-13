@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Laboratorio de Digitalización | Reparaciones Rápidas</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<header class="site-header">
+		<a class="wordmark" href="#portada">RR<span>·</span></a>
+		<p>Laboratorio de Digitalización <span>UD1 · UD2</span></p>
+		<a class="header-link" href="#unidades">Explorar unidades <span aria-hidden="true">↓</span></a>
+	</header>
+	<main>
+		<section class="index-hero" id="portada" aria-labelledby="index-title">
+			<div>
+				<p class="eyebrow">Digitalización aplicada al sistema productivo</p>
+				<h1 id="index-title">Del papel al<br><em>proceso conectado.</em></h1>
+				<p class="hero-intro">Laboratorio de aprendizaje a partir de Reparaciones Rápidas, una empresa ficticia. Explora las unidades y sus sesiones de estudio.</p>
+			</div>
+			<nav class="unit-cards" id="unidades" aria-label="Unidades del laboratorio">
+				<a class="unit-card" href="#ud1"><span class="unit-card-number">UD1</span><strong>Digitalizar una empresa</strong><small>3 sesiones · análisis y rediseño</small><span class="unit-card-arrow" aria-hidden="true">↘</span></a>
+				<a class="unit-card unit-card-next" href="#ud2"><span class="unit-card-number">UD2</span><strong>Integrar aplicaciones</strong><small>Sesión 1 · APIs y eventos</small><span class="unit-card-arrow" aria-hidden="true">↘</span></a>
+			</nav>
+		</section>
+
+		<nav class="unit-nav" aria-label="Navegación por unidades">
+			<a href="#ud1">UD1 <span>Digitalizar una empresa</span></a>
+			<a href="#ud1-s1">Sesión 1</a>
+			<a href="#ud1-s2">Sesión 2</a>
+			<a href="#ud1-s3">Sesión 3</a>
+			<a href="#ud2">UD2 <span>Integrar aplicaciones</span></a>
+			<a href="#ud2-s1">Sesión 1</a>
+		</nav>
+
+		<section class="unit-section" id="ud1" aria-labelledby="ud1-title">
+			<header class="unit-heading">
+				<p class="eyebrow">Unidad didáctica 1</p>
+				<h2 id="ud1-title">Digitalizar una empresa</h2>
+				<p>Del diagnóstico de Reparaciones Rápidas a una propuesta de transformación gradual. Cada sesión conserva su propio foco y resultado.</p>
+			</header>
+			<nav class="session-index" aria-label="Sesiones de la unidad 1">
+				<a href="#ud1-s1"><span>01</span><strong>Propuestas</strong><small>Evaluar qué cambia</small></a>
+				<a href="#ud1-s2"><span>02</span><strong>Rediseño</strong><small>Definir el sistema</small></a>
+				<a href="#ud1-s3"><span>03</span><strong>Decisiones</strong><small>Validar y desplegar</small></a>
+			</nav>
+
+			<section class="study-section" id="ud1-s1" aria-labelledby="ud1-s1-title">
+				<div class="study-heading"><p class="eyebrow">UD1 / Sesión 1</p><h3 id="ud1-s1-title">¿Digitalizar o transformar?</h3><p>Ocho propuestas para el taller, clasificadas según cambien solo el soporte, el proceso o no definan una acción concreta.</p></div>
+				<div class="proposal-list">
+					<details class="proposal-item"><summary><span class="proposal-number">01</span><span><strong>Escanear las fichas de papel</strong><small>Guardar los archivos en una carpeta compartida, ordenados por fecha.</small></span><span class="proposal-tag support">Cambia solo el soporte</span></summary><div class="proposal-body"><p><b>Hecho:</b> el trabajador apunta en papel el nombre, teléfono, dispositivo y avería.</p><p><b>Razonamiento:</b> se mantiene la escritura manual y se añade el escaneo. Administración debe volver a leer o copiar los datos; la asignación sigue siendo verbal o por mensajería, el cliente no conoce el estado y las estadísticas siguen siendo difíciles de obtener. Se añade un paso sin resolver la duplicidad ni el flujo de datos.</p></div></details>
+					<details class="proposal-item"><summary><span class="proposal-number">02</span><span><strong>Formulario en una tableta</strong><small>Registrar la reparación en el mostrador y asignarle un número.</small></span><span class="proposal-tag process">Cambia el proceso</span></summary><div class="proposal-body"><p><b>Hechos:</b> la recepción anota los datos en papel y el cliente no puede consultar el estado.</p><p><b>Razonamiento:</b> los datos se registran directamente en digital, se elimina la libreta y se genera un identificador de reparación. La información queda centralizada desde el origen y otros trabajadores pueden consultarla sin transcribirla de nuevo.</p><p><b>Cambio:</b> se elimina la doble entrada y el número único permite localizar el trabajo y consultar su estado.</p></div></details>
+					<details class="proposal-item"><summary><span class="proposal-number">03</span><span><strong>Formalizar el reparto en mensajería</strong><small>Crear un grupo para asignar cada mañana las reparaciones.</small></span><span class="proposal-tag support">Cambia solo el soporte</span></summary><div class="proposal-body"><p><b>Hecho:</b> el responsable ya asigna las reparaciones verbalmente o por mensajería.</p><p><b>Razonamiento:</b> formaliza una práctica existente sin cambiar su lógica. La información sobre técnico y dispositivo sigue dispersa en chats no estructurados, no se incorpora automáticamente a la ficha ni a la base central y depende de lectura y escritura manuales.</p></div></details>
+					<details class="proposal-item"><summary><span class="proposal-number">04</span><span><strong>Subir fotos a la ficha de reparación</strong><small>Vincular las imágenes del dispositivo con su expediente.</small></span><span class="proposal-tag process">Cambia el proceso</span></summary><div class="proposal-body"><p><b>Hecho:</b> los técnicos guardan las fotografías en sus teléfonos.</p><p><b>Razonamiento:</b> las imágenes pasan a formar parte del expediente central y quedan disponibles para el equipo, aunque el técnico no esté en el local o cambie de dispositivo.</p><p><b>Cambio:</b> se reduce la espera y se puede comprobar el estado previo del equipo si surge una disputa al entregarlo.</p></div></details>
+					<details class="proposal-item"><summary><span class="proposal-number">05</span><span><strong>Pantalla con el estado de los trabajos</strong><small>Mostrar en el local las reparaciones del día.</small></span><span class="proposal-tag limited">Proceso, con límites</span></summary><div class="proposal-body"><p><b>Hechos:</b> el cliente no puede consultar el estado y la asignación se comunica verbalmente.</p><p><b>Razonamiento:</b> recepción y quienes acuden al local pueden ver el flujo sin interrumpir al responsable o a los técnicos; reduce consultas internas.</p><p><b>Límite:</b> no evita las llamadas de clientes que están en casa, salvo que la pantalla se alimente de un sistema con consulta web.</p></div></details>
+					<details class="proposal-item"><summary><span class="proposal-number">06</span><span><strong>Aviso automático al terminar</strong><small>Notificar al cliente cuando el estado cambie a «Terminado».</small></span><span class="proposal-tag process">Cambia el proceso</span></summary><div class="proposal-body"><p><b>Hechos:</b> el técnico avisa al responsable, quien busca el contacto y llama o escribe; el cliente también llama para preguntar por el estado.</p><p><b>Razonamiento:</b> el cambio de estado activa el aviso sin intervención manual intermedia. Se eliminan búsquedas de contactos y avisos uno a uno, y disminuyen las llamadas de consulta.</p></div></details>
+					<details class="proposal-item"><summary><span class="proposal-number">07</span><span><strong>Implantar inteligencia artificial</strong><small>«Optimizar el taller» sin concretar el uso.</small></span><span class="proposal-tag undefined">No es una propuesta</span></summary><div class="proposal-body"><p><b>Hecho:</b> no se identifica un problema específico al que responda.</p><p><b>Razonamiento:</b> no dice qué dato se recoge, qué decisión se automatiza ni qué tarea cambia. Es un deseo genérico y no una acción ejecutable o comprobable; el trabajo seguiría igual.</p></div></details>
+					<details class="proposal-item"><summary><span class="proposal-number">08</span><span><strong>Hoja compartida para estadísticas</strong><small>Administración copia cada reparación al cerrarla.</small></span><span class="proposal-tag support">Soporte y problema nuevo</span></summary><div class="proposal-body"><p><b>Hecho:</b> el histórico está repartido entre documentos, hojas de cálculo y mensajes; cuesta conocer tiempos, averías frecuentes y trabajos del mes.</p><p><b>Razonamiento:</b> administración vuelve a copiar datos ya registrados. La hoja manual puede quedar incompleta y tener errores de transcripción: se añade trabajo al final sin mejorar la recogida desde el origen.</p></div></details>
+				</div>
+			</section>
+
+			<section class="study-section" id="ud1-s2" aria-labelledby="ud1-s2-title">
+				<div class="study-heading"><p class="eyebrow">UD1 / Sesión 2</p><h3 id="ud1-s2-title">Rediseñar el flujo de trabajo</h3><p>Las soluciones individuales no bastan: el negocio necesita centralizar datos y coordinar recepción, taller, administración y cliente.</p></div>
+				<div class="problem-grid">
+					<article class="problem-item"><span class="mini-label">PROBLEMA A · DATOS E HISTÓRICO</span><h4>La información está dispersa</h4><p>Documentos, hojas y mensajes no permiten analizar tiempos ni averías.</p><p><b>Necesidad:</b> centralizar cada reparación desde la recepción hasta la entrega.</p><p><b>Acción:</b> registrar dispositivo, fallos, tiempos y técnicos asignados en un sistema digital central.</p><p><b>Responsable:</b> recepción / administración.</p></article>
+					<article class="problem-item"><span class="mini-label">PROBLEMA B · ESTADO Y AVISOS</span><h4>El cliente llama y espera</h4><p>No conoce el estado; el aviso final depende de búsquedas manuales.</p><p><b>Necesidad:</b> comunicar cambios de forma transparente al cliente y al equipo.</p><p><b>Acción:</b> el técnico actualiza el estado en el registro central; el cambio a «Terminado» activa un aviso por SMS o email.</p><p><b>Responsables:</b> técnico como activador; sistema de notificaciones como ejecutor.</p></article>
+				</div>
+				<h4 class="subheading">Necesidad, solución y motivo</h4>
+				<div class="table-wrap"><table class="study-table"><thead><tr><th>Necesidad</th><th>Solución propuesta</th><th>Motivo</th></tr></thead><tbody>
+					<tr><td>Capturar datos iniciales sin duplicar papel ni entrada posterior.</td><td>Formulario web de alta de reparación.</td><td>Recepción registra cliente, dispositivo y avería en un único paso que alimenta el repositorio central.</td></tr>
+					<tr><td>Centralizar estados, asignaciones e histórico.</td><td>Registro compartido / base de datos central.</td><td>Sustituye notas, chats y hojas manuales por un repositorio accesible para técnicos y administración.</td></tr>
+					<tr><td>Informar al cliente sin llamadas ni búsquedas manuales.</td><td>Notificación automática por mensajería o email.</td><td>El aviso se activa cuando el técnico marca el trabajo como terminado.</td></tr>
+					<tr><td>Consultar el estado sin saturar la atención telefónica.</td><td>Portal web de consulta para clientes.</td><td>El cliente introduce su identificador y consulta el estado actual desde la web.</td></tr>
+				</tbody></table></div>
+				<h4 class="subheading">Arquitectura conceptual · flujo de datos</h4>
+				<ol class="architecture-list">
+					<li><b>Recepción → formulario web:</b> nombre y teléfono del cliente, dispositivo y avería.</li>
+					<li><b>Formulario → base central:</b> se genera el identificador, estado inicial «Recibido» y datos de contacto.</li>
+					<li><b>Técnico ↔ base central:</b> consulta reparaciones asignadas y actualiza estados como «En proceso» o «Terminado».</li>
+					<li><b>Base central ↔ portal cliente:</b> con el identificador, el cliente consulta el estado actual.</li>
+					<li><b>Técnico / base central → notificaciones:</b> al terminar, se envían el contacto y el identificador para avisar al cliente.</li>
+				</ol>
+				<aside class="decision-note"><b>Alternativa descartada:</b> desarrollar una app nativa propia para iOS y Android. Aunque ofrece notificaciones push y acceso directo, cuesta más desarrollar y mantener; para un negocio local, una web adaptada al móvil resuelve lo mismo sin pedir al cliente que instale una app de uso puntual.</aside>
+				<h4 class="subheading">Antes / después</h4>
+				<div class="table-wrap"><table class="study-table before-after"><thead><tr><th>Aspecto</th><th>Proceso actual</th><th>Proceso rediseñado</th></tr></thead><tbody>
+					<tr><th>Registro</th><td>Papel y copia manual a documentos u hojas.</td><td>Formulario único con almacenamiento directo en la base central.</td></tr>
+					<tr><th>Asignación</th><td>Reparto verbal o en chats informales.</td><td>Consulta compartida de trabajos asignados y ordenados por prioridad.</td></tr>
+					<tr><th>Consultas</th><td>El cliente llama al local y puede interrumpir el trabajo.</td><td>Consulta el estado en la web con su número de reparación.</td></tr>
+					<tr><th>Finalización</th><td>El responsable busca el contacto, avisa y prepara la factura a mano.</td><td>El cambio a «Terminado» activa el aviso y genera datos para la factura.</td></tr>
+					<tr><th>Histórico</th><td>Datos dispersos; cuesta conocer tiempos y fallos frecuentes.</td><td>Registro estructurado para consultar tiempos, averías y volumen mensual.</td></tr>
+				</tbody></table></div>
+			</section>
+
+			<section class="study-section" id="ud1-s3" aria-labelledby="ud1-s3-title">
+				<div class="study-heading"><p class="eyebrow">UD1 / Sesión 3</p><h3 id="ud1-s3-title">Validar antes de implantar</h3><p>La propuesta se concreta, se revisan las dudas operativas y se plantea una implantación gradual.</p></div>
+				<div class="synthesis-grid">
+					<article><span class="mini-label">PROBLEMA PRIORITARIO</span><p>La información dispersa en papel, llamadas y chats impide conocer el estado de los trabajos y duplica la entrada manual entre recepción, técnicos y administración.</p></article>
+					<article><span class="mini-label">CAMBIO PROPUESTO</span><p>Registro digital central accesible por navegador, estados compartidos, consulta web para clientes y avisos automáticos al terminar.</p></article>
+					<article><span class="mini-label">ALTERNATIVA DESCARTADA</span><p>App nativa propia: coste alto y fricción para un cliente que la utilizaría de forma puntual.</p></article>
+				</div>
+				<h4 class="subheading">Preguntas de responsabilidad y viabilidad</h4>
+				<div class="qa-grid">
+					<article><h4>¿Quién actúa si no retiran el equipo?</h4><p>El sistema registra fecha y hora del aviso. Si en 48 horas no pasa a «Entregado», crea una alerta para administración. Administración hace una llamada de seguimiento y registra la incidencia en la ficha.</p></article>
+					<article><h4>¿Puede implantarse sin parar el taller?</h4><p>Sí. Formularios y bases de datos en la nube funcionan desde el navegador, sin instalar infraestructura local ni programar una app compleja. El personal necesita formación básica.</p></article>
+				</div>
+				<h4 class="subheading">Datos que faltan para decidir</h4>
+				<ul class="data-questions"><li><b>Volumen mensual de reparaciones:</b> dimensionar el plan de base de datos y la cuota de mensajes.</li><li><b>Digitalización de la clientela habitual:</b> estimar quién consultará la web y quién seguirá llamando o acudiendo al local.</li><li><b>Equipamiento del taller y mostrador:</b> comprobar si se necesitan tabletas o pantallas y si los equipos actuales soportan el navegador.</li></ul>
+				<div class="revision-band"><div><p class="eyebrow">Revisión del sistema</p><h4>Un aviso necesita seguimiento.</h4></div><p><b>Observación:</b> faltaba indicar quién actúa si el mensaje falla o el cliente no responde.</p><p><b>Decisión:</b> añadir el estado «Aviso enviado» y una alerta interna por antigüedad.</p><p><b>Cambio:</b> tras 48 horas sin pasar a «Entregado», se crea una tarea para que administración llame y registre el seguimiento.</p></div>
+				<aside class="pilot-note"><span class="mini-label">DECISIÓN JUSTIFICADA</span><h4>Prueba piloto de dos semanas con un técnico</h4><p>Un cambio simultáneo para todo el equipo puede generar rechazo, errores y lentitud en recepción. El piloto permite ajustar pantallas, resolver dudas reales y preparar a ese técnico como tutor. Así se facilita la transición del papel sin parar el taller ni acumular retrasos.</p></aside>
+			</section>
+		</section>
+
+		<section class="unit-section ud2-unit" id="ud2" aria-labelledby="ud2-title">
+			<header class="unit-heading">
+				<p class="eyebrow">Unidad didáctica 2 · Sesión 1</p>
+				<h2 id="ud2-title">Integrar aplicaciones</h2>
+				<p>APIs, eventos y mensajes conectan la reparación terminada con la facturación y los avisos.</p>
+			</header>
+			<div class="ud2-lesson" id="ud2-s1">
+		<section class="hero" aria-labelledby="page-title">
+			<div class="hero-copy">
+				<p class="eyebrow">Del taller a los sistemas conectados <span>·</span> 10 min de contexto</p>
+				<h1 id="page-title">Una reparación termina.<br><em>¿Qué ocurre después?</em></h1>
+				<p class="hero-intro">Cuando el técnico cierra un trabajo, gestión, facturación y avisos necesitan coordinarse. Un evento inicia el movimiento; las APIs permiten que cada sistema intercambie información.</p>
+				<a class="text-link" href="#flujo">Seguir el recorrido <span aria-hidden="true">↘</span></a>
+			</div>
+			<figure class="hero-image">
+				<img src="taller.svg" width="640" height="200" alt="Ilustración de un dispositivo en un taller de reparación">
+				<figcaption><span>CASO DE AULA</span> Reparaciones Rápidas · datos ficticios</figcaption>
+			</figure>
+		</section>
+
+		<nav class="section-nav" aria-label="Contenido de la sesión">
+			<a href="#conceptos">01 <span>Conceptos</span></a>
+			<a href="#flujo">02 <span>El intercambio</span></a>
+			<a href="#simulacion">03 <span>Simulación</span></a>
+			<a href="#actividad">04 <span>Actividad</span></a>
+		</nav>
+
+		<section class="lesson-section concepts" id="conceptos" aria-labelledby="conceptos-title">
+			<div class="section-heading">
+				<p class="eyebrow">01 / Vocabulario útil</p>
+				<h2 id="conceptos-title">No todo mensaje<br>significa lo mismo.</h2>
+			</div>
+			<div class="concept-grid">
+				<article class="concept concept-event">
+					<p class="concept-tag">ACONTECIMIENTO</p>
+					<h3>Evento</h3>
+					<p>Comunica que algo ya ha pasado. Se escribe en pasado: <strong>«La reparación reparacion-42 fue terminada».</strong></p>
+					<p class="concept-note">Puede iniciar varias acciones; no es una orden para crear una factura.</p>
+				</article>
+				<article class="concept concept-api">
+					<p class="concept-tag">PETICIÓN / RESPUESTA</p>
+					<h3>API</h3>
+					<p>Una aplicación pide una acción a otra siguiendo un acuerdo: datos requeridos, formato y respuestas posibles.</p>
+					<p class="concept-note">«Crear factura» es una petición. «Factura creada» es una respuesta que debe incluir su identificador.</p>
+				</article>
+				<article class="concept concept-queue">
+					<p class="concept-tag">ENTREGA FIABLE</p>
+					<h3>Cola e idempotencia</h3>
+					<p>Si facturación no responde, el mensaje puede quedar pendiente y reintentarse cuando vuelva.</p>
+					<p class="concept-note">Una clave estable permite reconocer el mismo trabajo y evitar facturarlo dos veces.</p>
+				</article>
+			</div>
+			<aside class="compare-band" aria-label="Diferencia entre polling y webhook">
+				<div><span class="mini-label">POLLING</span><p>Gestión pregunta cada cierto tiempo: «¿Hay novedades?»</p></div>
+				<span class="compare-mark" aria-hidden="true">/</span>
+				<div><span class="mini-label">WEBHOOK</span><p>El sistema avisa al ocurrir el evento: «La reparación terminó».</p></div>
+				<p class="compare-footnote">El evento puede disparar una llamada a la API de facturación. También se podría conectar este flujo con herramientas low-code/no-code, como Make o Power Automate.</p>
+			</aside>
+		</section>
+
+		<section class="lesson-section flow-section" id="flujo" aria-labelledby="flujo-title">
+			<div class="section-heading section-heading-row">
+				<div><p class="eyebrow">02 / Un estado por responsable</p><h2 id="flujo-title">El recorrido del cierre</h2></div>
+				<p class="section-summary">Cada sistema mantiene su propio estado. Facturación confirma la factura; gestión conserva el estado de la reparación; avisos registra el envío al cliente.</p>
+			</div>
+			<div class="flow-grid">
+				<article class="flow-step">
+					<span class="step-index">01</span>
+					<p class="mini-label">GESTIÓN DE REPARACIONES</p>
+					<h3>Emite el evento</h3>
+					<p>El técnico termina el trabajo. Gestión registra el cierre y publica el evento una sola vez con los datos mínimos.</p>
+					<code>reparacion.terminada</code>
+				</article>
+				<div class="flow-arrow" aria-hidden="true">→</div>
+				<article class="flow-step">
+					<span class="step-index">02</span>
+					<p class="mini-label">FACTURACIÓN</p>
+					<h3>Responde a la API</h3>
+					<p>Recibe la orden de crear la factura, comprueba los datos y devuelve el resultado con su referencia.</p>
+					<code>POST /facturas</code>
+				</article>
+				<div class="flow-arrow" aria-hidden="true">→</div>
+				<article class="flow-step">
+					<span class="step-index">03</span>
+					<p class="mini-label">SERVICIO DE AVISOS</p>
+					<h3>Notifica al cliente</h3>
+					<p>Envía el aviso de reparación terminada y registra si se entregó. No crea ni modifica la factura.</p>
+					<code>aviso.registrado</code>
+				</article>
+			</div>
+			<div class="data-strip">
+				<div><span class="mini-label">REPARACIÓN</span><strong>reparacion-42</strong><small>Vincula una única factura al trabajo.</small></div>
+				<div><span class="mini-label">FECHA DE CIERRE</span><strong>2026-10-15 10:00</strong><small>Indica cuándo quedó terminado.</small></div>
+				<div><span class="mini-label">REFERENCIA DEL CLIENTE</span><strong>cliente-7</strong><small>Identifica a quién corresponde.</small></div>
+			</div>
+		</section>
+
+		<section class="lesson-section simulation-section" id="simulacion" aria-labelledby="simulacion-title">
+			<div class="section-heading section-heading-row">
+				<div><p class="eyebrow">03 / Prueba de escritorio · sin backend</p><h2 id="simulacion-title">Cinco resultados posibles</h2></div>
+				<p class="section-summary">Mismo caso en todos los intentos. La clave de idempotencia es <code>reparacion-42</code>. Importes, teléfonos y pagos quedan fuera de esta simulación.</p>
+			</div>
+			<div class="scenario-list" role="list" aria-label="Escenarios de petición y respuesta">
+				<article class="scenario" role="listitem">
+					<div class="scenario-number">01</div>
+					<div class="scenario-title"><span class="status status-ok">CONFIRMADO</span><h3>Cierre normal</h3></div>
+					<div class="scenario-exchange"><p><span class="mini-label">PETICIÓN → FACTURACIÓN</span><code>Crear factura · reparacion-42 · cliente-7 · 2026-10-15 10:00</code></p><p><span class="mini-label">RESPUESTA ← FACTURACIÓN</span><code>201 · creada · factura_id: FAC-2026-0042</code></p></div>
+					<p class="scenario-result">Gestión vincula FAC-2026-0042 a reparacion-42. Una factura.</p>
+				</article>
+				<article class="scenario" role="listitem">
+					<div class="scenario-number">02</div>
+					<div class="scenario-title"><span class="status status-wait">PENDIENTE</span><h3>Servicio no disponible</h3></div>
+					<div class="scenario-exchange"><p><span class="mini-label">PETICIÓN → FACTURACIÓN</span><code>Crear factura · clave: reparacion-42</code></p><p><span class="mini-label">RESPUESTA ← FACTURACIÓN</span><code>Sin respuesta · tiempo de espera agotado</code></p></div>
+					<p class="scenario-result">La cola conserva el mensaje. No se afirma que la factura exista.</p>
+				</article>
+				<article class="scenario" role="listitem">
+					<div class="scenario-number">03</div>
+					<div class="scenario-title"><span class="status status-ok">RECUPERADO</span><h3>Reintento</h3></div>
+					<div class="scenario-exchange"><p><span class="mini-label">PETICIÓN → FACTURACIÓN</span><code>Reintentar · misma clave: reparacion-42</code></p><p><span class="mini-label">RESPUESTA ← FACTURACIÓN</span><code>201 · creada · factura_id: FAC-2026-0042</code></p></div>
+					<p class="scenario-result">El servicio vuelve; se confirma y vincula una sola factura.</p>
+				</article>
+				<article class="scenario" role="listitem">
+					<div class="scenario-number">04</div>
+					<div class="scenario-title"><span class="status status-duplicate">DUPLICADO</span><h3>Mensaje repetido</h3></div>
+					<div class="scenario-exchange"><p><span class="mini-label">PETICIÓN → FACTURACIÓN</span><code>Crear factura · clave repetida: reparacion-42</code></p><p><span class="mini-label">RESPUESTA ← FACTURACIÓN</span><code>200 · ya procesada · FAC-2026-0042</code></p></div>
+					<p class="scenario-result">Se devuelve la factura existente; no se crea una segunda.</p>
+				</article>
+				<article class="scenario" role="listitem">
+					<div class="scenario-number">05</div>
+					<div class="scenario-title"><span class="status status-error">NO CREADA</span><h3>Falta un dato obligatorio</h3></div>
+					<div class="scenario-exchange"><p><span class="mini-label">PETICIÓN → FACTURACIÓN</span><code>Crear factura · falta fecha_cierre</code></p><p><span class="mini-label">RESPUESTA ← FACTURACIÓN</span><code>422 · petición incompleta · falta fecha_cierre</code></p></div>
+					<p class="scenario-result">Se corrige y reenvía. Una respuesta sin confirmación e identificador no prueba que esté creada.</p>
+				</article>
+			</div>
+			<p class="simulation-note"><strong>Regla de cierre:</strong> «crear factura» es la orden; «factura creada» solo se registra cuando Facturación responde de forma completa con su identificador. Si la respuesta es incompleta, el resultado queda sin confirmar.</p>
+		</section>
+
+		<section class="lesson-section activity-section" id="actividad" aria-labelledby="actividad-title">
+			<div class="activity-intro"><p class="eyebrow">04 / Trabajo guiado · 45 min</p><h2 id="actividad-title">Ahora, dibuja el intercambio.</h2><p>Trabajad en parejas: una persona prepara la petición y otra interpreta la respuesta de Facturación. No hace falta programar ni usar datos reales.</p></div>
+			<ol class="task-list">
+				<li><span>01</span><p>Recupera solo el tramo del proceso que empieza al terminar la reparación.</p></li>
+				<li><span>02</span><p>Escribe el evento en pasado y justifica el identificador, la fecha de cierre y la referencia del cliente.</p></li>
+				<li><span>03</span><p>Dibuja Gestión, Facturación y Avisos. Asigna un estado y una responsabilidad a cada participante.</p></li>
+				<li><span>04</span><p>Registra petición, respuesta y condición de parada. Prueba el caso incompleto y el mensaje duplicado.</p></li>
+				<li><span>05</span><p>Intercambiad los registros y comprobad que otra persona puede entenderlos sin añadir datos de memoria.</p></li>
+			</ol>
+		</section>
+		<section class="closing-section" aria-labelledby="closing-title">
+			<div><p class="eyebrow">05 / Cierre · 5 min</p><h2 id="closing-title">Comprueba el registro.</h2></div>
+			<p>Debe leerse quién solicita, quién responde y qué cambia. <strong>«Crear factura»</strong> es la orden; <strong>«factura creada»</strong> solo se afirma tras una respuesta completa con identificador.</p>
+		</section>
+			</div>
+		</section>
+		<footer><span>REPARACIONES RÁPIDAS</span><p>Práctica de aula · empresa ficticia · sin conexión a servicios reales</p></footer>
+	</main>
+</body>
+
+</html>
